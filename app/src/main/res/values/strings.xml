@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Petagram 3</string>
+    <string name="action_favorite">Favoritos</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="text_name">Nombre</string>
+    <string name="text_email">Correo electrónico</string>
+    <string name="title_form">Formulario</string>
+    <string name="text_message">Mensaje</string>
+    <string name="text_button_send">Enviar comentario</string>
+    <string name="developer_name">Darío Finelli</string>
+    <string name="developer_description">Diseñador / Desarrollador</string>
+    <string name="acti_contact">Contacto</string>
+    <string name="acti_about">Acerca de</string>
+    <string name="name_dog">Sultán</string>
+</resources>

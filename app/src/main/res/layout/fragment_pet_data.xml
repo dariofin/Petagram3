@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/cImagePet"
+        android:layout_width="@dimen/width_circuler"
+        android:layout_height="@dimen/height_circuler"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/perro_1"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="@dimen/width_border_circuler"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/shadow_circuler"
+        app:civ_shadow_radius="@dimen/radius_circuler" />
+
+    <TextView
+        android:id="@+id/tViewNamePet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cImagePet"
+        android:layout_centerHorizontal="true"
+        android:text="@string/name_dog" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPetData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tViewNamePet" />
+
+</RelativeLayout>

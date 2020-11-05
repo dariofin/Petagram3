@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_cardView">16dp</dimen>
+    <dimen name="margin_text">20dp</dimen>
+    <dimen name="radius_cardview">4dp</dimen>
+    <dimen name="size_name">20sp</dimen>
+    <dimen name="elevation_action_bar">4dp</dimen>
+    <dimen name="size_title_bar">20dp</dimen>
+    <dimen name="margin_toolbar">5dp</dimen>
+    <dimen name="margin_constrain_toolbar">10dp</dimen>
+    <dimen name="margin_floating_button">20dp</dimen>
+    <dimen name="margin_left_constrain">16dp</dimen>
+    <dimen name="margin_right_constrain">16dp</dimen>
+    <dimen name="margin_top_constrain">20dp</dimen>
+    <dimen name="padding_scroll">50dp</dimen>
+    <dimen name="padding_constrainFromBottom">80dp</dimen>
+    <dimen name="width_circuler">100dp</dimen>
+    <dimen name="height_circuler">100dp</dimen>
+    <dimen name="width_border_circuler">4dp</dimen>
+    <dimen name="radius_circuler">10</dimen>
+    <dimen name="margin_recycler_data">30dp</dimen>
+</resources>
